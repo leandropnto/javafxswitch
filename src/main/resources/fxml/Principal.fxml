@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.*?>
+<AnchorPane id="tabbedDisplayAnchor" maxHeight="-1.0" maxWidth="-1.0"
+            prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS"
+            xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8"
+            fx:controller="com.mvp.java.controllers.PrincipalController">
+    <children>
+        <BorderPane prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.112"
+                    xmlns:fx="http://javafx.com/fxml/1" >
+            <top>
+                <fx:include source="Menu.fxml" fx:id="TabPane" />
+            </top>
+            <center>
+                <fx:include source="Corpo.fxml" fx:id="Corpo"/>
+            </center>
+        </BorderPane>
+    </children>
+    <opaqueInsets>
+        <Insets />
+    </opaqueInsets>
+</AnchorPane>
+
+
+
+
+
